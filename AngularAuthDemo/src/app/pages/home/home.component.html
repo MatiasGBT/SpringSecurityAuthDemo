@@ -1,0 +1,5 @@
+<div class="container" *ngIf="products.length > 0">
+    <header class="jumbotron">
+        <p *ngFor="let product of products">{{ product.idProduct}} - {{ product.name }}</p>
+    </header>
+</div>
